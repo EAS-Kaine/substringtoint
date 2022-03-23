@@ -2,6 +2,7 @@ package substring
 
 import (
     "fmt"
+    "os"
 	s "strings"
 	"strconv"
 )

@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func Substring() int {
 
     sub := os.Args[1]
 	str := os.Args[2]
@@ -21,5 +21,5 @@ func main() {
         os.Exit(2)
     }
 	
-    fmt.Println(i)
+    return i
 }

@@ -2,15 +2,11 @@ package substring
 
 import (
     "fmt"
-    "os"
 	s "strings"
 	"strconv"
 )
 
-func Substring() int {
-
-    sub := os.Args[1]
-	str := os.Args[2]
+func Substring(sub string, str string) int {
 
 	sArr := s.Split(sub, str)
 
